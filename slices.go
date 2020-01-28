@@ -9,4 +9,11 @@ func main() {
 	slice = append(slice, 2)
 	fmt.Println(len(slice))
 	fmt.Println(cap(slice))
+
+	sliceone := []int{1,2,3,4}
+	copia := make([]int, len(slice))
+
+	copy(copia, sliceone)
+
+	fmt.Println(copia)
 }
