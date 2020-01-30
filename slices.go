@@ -12,7 +12,7 @@ func main() {
 
 	sliceone := []int{1,2,3,4}
 	copia := make([]int, len(slice))
-
+	// La funcion copy copia el minimo numero de elementos
 	copy(copia, sliceone)
 
 	fmt.Println(copia)
